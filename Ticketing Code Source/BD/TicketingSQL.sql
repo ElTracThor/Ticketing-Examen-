@@ -10,7 +10,6 @@ create table T_TICKET (
   TIC_CONTENU varchar(400) not null,
   URG_ID integer not null,
   ETAT_ID integer not null
-/*constraint fk_tic_urg foreign key(URG_ID) references T_URGENCE(URG_ID) */
 ) ENGINE=INNODB CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 create table T_COMMENTAIRE (
